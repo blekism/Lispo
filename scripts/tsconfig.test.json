@@ -1,0 +1,8 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "..",
+    "paths": { "expo-sqlite": ["scripts/stubs/expo-sqlite.ts"] }
+  },
+  "include": ["./**/*.ts", "../src/**/*.ts"]
+}
